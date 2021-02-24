@@ -1,0 +1,98 @@
+body {
+	background-image: url("Imagenes/background01.jpeg");
+	font-family: arial;
+	font-style: italic;
+}
+header{
+	color:orange;
+}
+ol{
+	counter-reset: tu;
+}
+#li{
+	display: block;
+}
+#li:before{
+	content: counters(tu,".")" ";
+	counter-increment: tu;
+}
+#Licencia{
+	font-weight: bold;
+	font-family: arial;
+	font-style: italic;
+	color: black;
+	font-size: 120%;
+}
+#mitad{
+	column-count: 2;
+	column-rule: 2px solid black;
+}
+#Indice{
+	font-family: Arial;
+	color: black;
+	font-size: 200%;
+	font-weight: bold;
+}
+#obj{
+	font-size: 130%;
+	color: orange;
+
+}
+#pag{
+	font-size: 80%;
+	font-size: 15px;
+	float: right;
+	margin-right: 7em;
+	text-decoration: underline;
+}
+#Medidas{
+	color: orange;
+  	position: relative;
+  	right: -50px;
+}
+#tipos{
+	color: black;
+}
+#orange{
+	display: block;
+}
+#orange:before{
+	content: counters(tu,".")" ";
+	counter-increment: tu;
+	background-color: orange;
+	color: white;
+
+}
+footer{
+	background-color: #EDEDED;
+	height: 10em;
+	text-align: center;
+	position: all;
+}
+#cc{
+	float: right;
+	width: 100px;
+}
+#incibe{
+	width: 400px;
+	float: left;
+}
+#num{
+	width: 150PX;
+	float: left;
+}
+#osi{
+	float: right;
+	width: 320px;
+}
+div{
+	text-align: center;
+}
+#paginas{
+	font-size: 15px;
+	float: right;
+	margin-right: 7em;
+}
+#negrita{
+	font-weight: bold;
+}

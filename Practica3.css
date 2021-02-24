@@ -1,0 +1,25 @@
+h1 {
+	color:orange;
+	text-align:center;
+	font-size: 150%;
+}
+body {
+	background-image: url("Imagenes/background01.jpeg");
+}
+#de {
+	font-size: 75%;
+}
+#ciber {
+	font-size: 350%;
+	display: block;
+	font-family: sans-serif;
+} 
+img {
+	display:block;
+	margin: auto;
+}
+h2 {
+	display: block;
+	text-align: center;
+	color: #32A981;
+}
